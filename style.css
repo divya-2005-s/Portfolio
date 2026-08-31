@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #0077cc;
+}
+
+
+/* General sections */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+
+    padding: 80px 8%;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+/* Home */
+
+.hero {
+    text-align: center;
+
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #555;
+}
+
+.hero p {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background: #222;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #0077cc;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills div {
+    background: white;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    border: 1px solid #ddd;
+}
+
+
+/* Projects */
+
+.project {
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+
+/* Certifications */
+
+.certificate {
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-left: 4px solid #222;
+}
+
+
+/* Contact */
+
+#contact a {
+    color: #0077cc;
+
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background: #222;
+
+    color: white;
+}
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+/* Contact Links */
+
+#contact a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
